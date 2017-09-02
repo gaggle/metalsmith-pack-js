@@ -3,6 +3,13 @@
   "version": "0.0.0",
   "description": "An opinionated metalsmith plugin that packs Javascript files.",
   "main": "lib/index.js",
+  "dependencies": {
+    "merge": "^1.2.0",
+    "metalsmith-babel": "^4.1.0",
+    "metalsmith-plugin-resolver": "git+https://github.com/gaggle/metalsmith-plugin-resolver.git",
+    "metalsmith-uglifyjs": "^0.2.3",
+    "metalsmith-webpack": "^1.0.3"
+  },
   "author": "Jon Lauridsen <mail@jonlauridsen.com>",
   "license": "ISC"
 }
